@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/people"
+        android:title="Departments"
+        android:icon="@drawable/ic_people"/>
+    <item android:id="@+id/money"
+        android:title="Admissions &amp; Plaacement"
+        android:icon="@drawable/ic_money"/>
+
+    <item android:id="@+id/none"
+        android:title="none"
+        />
+
+    <item android:id="@+id/archive"
+        android:title="Archive"
+        android:icon="@drawable/ic_archive"/>
+
+
+    <item android:id="@+id/gallery"
+        android:title="Gallery"
+        android:icon="@drawable/ic_gallery"/>
+</menu>
