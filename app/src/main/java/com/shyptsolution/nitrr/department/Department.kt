@@ -9,6 +9,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.LayoutManager
 import com.shyptsolution.nitrr.R
+//import android.R
+import androidx.fragment.app.FragmentTransaction
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -48,7 +51,7 @@ class Department : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        var view:View= inflater.inflate(R.layout.fragment_department, container, false)
+        var view:View= inflater.inflate(com.shyptsolution.nitrr.R.layout.fragment_department, container, false)
 
 
 
@@ -56,7 +59,7 @@ class Department : Fragment() {
         listofDept.add(DataModel("hello","helloagain","helloagain"))
         listofDept.add(DataModel("hello","helloagain","helloagain"))
         listofDept.add(DataModel("hello","helloagain","helloagain"))
-        recyclerView=view.findViewById(R.id.recyclerdepartment)
+        recyclerView=view.findViewById(com.shyptsolution.nitrr.R.id.recyclerdepartment)
         recyclerView?.layoutManager=LinearLayoutManager(activity)
         recyclerView?.setHasFixedSize(true)
         recyclerView?.adapter=DepartmentAdapter(layoutmanage)
@@ -82,4 +85,8 @@ class Department : Fragment() {
                 }
             }
     }
+
+
+
+
 }

@@ -7,14 +7,12 @@ object DepartmentData {
 
 
     init {
-        listofDepartment.add(Data("Computer Scince and end","happt fsdfjsdfhjsf", R.drawable.ic_gallery))
-        listofDepartment.add(Data("Computer Scince and end","happt fsdfjsdfhjsf",R.drawable.aicon))
-        listofDepartment.add(Data("Computer Scince and end","happt fsdfjsdfhjsf", R.drawable.ic_gallery))
-        listofDepartment.add(Data("Computer Scince and end","happt fsdfjsdfhjsf",R.drawable.aicon))
-        listofDepartment.add(Data("Computer Scince and end","happt fsdfjsdfhjsf", R.drawable.ic_gallery))
-        listofDepartment.add(Data("Computer Scince and end","happt fsdfjsdfhjsf",R.drawable.aicon))
-        listofDepartment.add(Data("Computer Scince and end","happt fsdfjsdfhjsf", R.drawable.ic_gallery))
-        listofDepartment.add(Data("Computer Scince and end","happt fsdfjsdfhjsf",R.drawable.aicon))
+        listofDepartment.add(Data("Computer Science & Engineering","Welcome to Computer Science & Engineering.", R.drawable.ic_gallery,"Year 2000","B.Tech. (Comp. Sc. Engg.) - 114","Bachelor of Technology (B.Tech.) in Computer Science & Engineering."))
+        listofDepartment.add(Data("Computer Science & Engineering","Welcome to Computer Science & Engineering.", R.drawable.ic_gallery,"Year 2000","B.Tech. (Comp. Sc. Engg.) - 114","Bachelor of Technology (B.Tech.) in Computer Science & Engineering."))
+        listofDepartment.add(Data("Computer Science & Engineering","Welcome to Computer Science & Engineering.", R.drawable.ic_gallery,"Year 2000","B.Tech. (Comp. Sc. Engg.) - 114","Bachelor of Technology (B.Tech.) in Computer Science & Engineering."))
+        listofDepartment.add(Data("Computer Science & Engineering","Welcome to Computer Science & Engineering.", R.drawable.ic_gallery,"Year 2000","B.Tech. (Comp. Sc. Engg.) - 114","Bachelor of Technology (B.Tech.) in Computer Science & Engineering."))
+        listofDepartment.add(Data("Computer Science & Engineering","Welcome to Computer Science & Engineering.", R.drawable.ic_gallery,"Year 2000","B.Tech. (Comp. Sc. Engg.) - 114","Bachelor of Technology (B.Tech.) in Computer Science & Engineering."))
+        listofDepartment.add(Data("Computer Science & Engineering","Welcome to Computer Science & Engineering.", R.drawable.ic_gallery,"Year 2000","B.Tech. (Comp. Sc. Engg.) - 114","Bachelor of Technology (B.Tech.) in Computer Science & Engineering."))
     }
 
 }
