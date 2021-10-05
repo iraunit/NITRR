@@ -11,4 +11,6 @@
     <color name="GreenApp">#259C26</color>
     <color name="royalblue">#246EE9</color>
     <color name="MintGreeen">#3EB489</color>
+    <color name="primary">#008577</color>
+    <color name="colorprimaryDark">#00574B</color>
 </resources>

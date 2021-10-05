@@ -1,27 +1,41 @@
 package com.shyptsolution.nitrr
 
-import android.graphics.drawable.Icon
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Adapter
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.google.android.material.bottomappbar.BottomAppBar
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
+import com.shyptsolution.nitrr.department.Department
+import com.shyptsolution.nitrr.department.DepartmentData
 import kotlinx.android.synthetic.main.activity_main.*
 
+
 class MainActivity : AppCompatActivity() {
+
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+
+
+
+
+
+
+
         var bottomNavigationView=findViewById<BottomNavigationView>(R.id.bottomnavigationview)
         bottomnavigationview.background=null
         bottomnavigationview.menu.getItem(2).isEnabled=false
         var firstFragment=MainFragment()
-        var secondFragment=SecondFragment()
-        var thirdFragment=ThirdFragment()
+        var deptfragment= Department()
         var fab:View= findViewById<FloatingActionButton>(R.id.floatingicon)
         fab.setOnClickListener {
             setCurrentFragment(firstFragment)
@@ -30,17 +44,16 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.people-> {
-                    setCurrentFragment(firstFragment)
-                    Toast.makeText(this,"hello",Toast.LENGTH_SHORT).show()
+                    setCurrentFragment(deptfragment)
                 }
                 R.id.home-> {
-                    setCurrentFragment(secondFragment)
+//                    setCurrentFragment(secondFragment)
                 }
                 R.id.archive-> {
-                    setCurrentFragment(thirdFragment)
+//                    setCurrentFragment(thirdFragment)
                 }
                 R.id.money->{
-                    setCurrentFragment(secondFragment)
+//                    setCurrentFragment(secondFragment)
                 }
                 R.id.gallery->{
                     setCurrentFragment(firstFragment)
@@ -52,27 +65,44 @@ class MainActivity : AppCompatActivity() {
         bottomnavigationview.setOnNavigationItemReselectedListener{
             when(it.itemId){
                 R.id.people-> {
-                    setCurrentFragment(firstFragment)
-                    Toast.makeText(this,"hello",Toast.LENGTH_SHORT).show()
+                    setCurrentFragment(deptfragment)
                 }
-                R.id.home-> {
-                    setCurrentFragment(secondFragment)
-                }
+
                 R.id.archive-> {
-                    setCurrentFragment(thirdFragment)
+//                    setCurrentFragment(thirdFragment)
                 }
                 R.id.money->{
-                    setCurrentFragment(secondFragment)
+//                    setCurrentFragment(secondFragment)
                 }
                 R.id.gallery->{
-                    setCurrentFragment(secondFragment)
+//                    setCurrentFragment(secondFragment)
                 }
 
             }
 
         }
 
+
+
+
+
+
+//        expandBtn.setOnClickListener {
+//            if (expandableLayout.visibility == View.GONE) {
+//                TransitionManager.beginDelayedTransition(cardd)
+//                expandableLayout.visibility = View.VISIBLE
+//                expandBtn.text = "COLLAPSE"
+//            } else {
+//                TransitionManager.beginDelayedTransition(cardd)
+//                expandableLayout.visibility = View.GONE
+//                expandBtn.text = "EXPAND"
+//            }
+//        }
+
+
     }
+
+
 
 
 
