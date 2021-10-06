@@ -24,12 +24,13 @@
             android:id="@+id/layouttop"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@drawable/button_background"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/departmentimage"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 card_view:srcCompat="@drawable/aicon" />
 
             <TextView
@@ -93,6 +94,12 @@
                 android:layout_marginRight="5dp"
                 android:layout_height="wrap_content"
                 android:text="TextView" />
+
+            <Button
+                android:id="@+id/formore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click For More Info" />
 
         </LinearLayout>
 

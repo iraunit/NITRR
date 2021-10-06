@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.GridLayout
 import android.widget.GridView
+import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.GridLayoutManager
 import com.shyptsolution.nitrr.R
 
@@ -46,6 +47,10 @@ class Gallery : Fragment() {
         // Inflate the layout for this fragment
 //        adapter= GalleryAdapter(GalleryData.galleryphoto)
 //        gallerygrid?.adapter=adapter
+
+
+
+
         var view:View=inflater.inflate(R.layout.fragment_gallery, container, false)
         gallerygrid=view.findViewById(R.id.galllerygrid)
         adapter= GalleryAdapter(listofphoto)
