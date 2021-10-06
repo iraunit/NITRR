@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
     tools:context=".archive.ArchiveFragment">
 
     <LinearLayout
@@ -51,6 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
                     android:padding="2dp"
                     android:text="@string/centrallib"
                     android:textAlignment="viewStart"
@@ -80,7 +82,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Admission"
+                    android:text="Hostel"
                     android:textColor="@color/GreenApp"
 
                     android:textSize="24sp" />
@@ -91,8 +93,48 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
                     android:padding="2dp"
-                    android:text="@string/admpro1"
+                    android:text="@string/hostel"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/admission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/gallerybackground"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/adm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Medical Facility"
+                    android:textColor="@color/GreenApp"
+
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/admpro1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="3dp"
+                    android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
+                    android:padding="2dp"
+                    android:text="@string/medical"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -102,8 +144,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
                     android:padding="2dp"
-                    android:text="@string/admpro2"
+                    android:text="@string/medicalavailable"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -128,7 +171,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Admission"
+                    android:text="Guest House"
                     android:textColor="@color/GreenApp"
 
                     android:textSize="24sp" />
@@ -139,21 +182,13 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
                     android:padding="2dp"
-                    android:text="@string/admpro1"
+                    android:text="@string/guesthouse"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
-                <TextView
-                    android:id="@+id/admpro2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:layout_marginTop="5dp"
-                    android:padding="2dp"
-                    android:text="@string/admpro2"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -176,7 +211,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Admission"
+                    android:text="About Estate Office"
                     android:textColor="@color/GreenApp"
 
                     android:textSize="24sp" />
@@ -187,21 +222,12 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
                     android:padding="2dp"
-                    android:text="@string/admpro1"
+                    android:text="@string/estateoffice"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
-                <TextView
-                    android:id="@+id/admpro2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:layout_marginTop="5dp"
-                    android:padding="2dp"
-                    android:text="@string/admpro2"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -224,7 +250,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Admission"
+                    android:text="Department of Sports"
                     android:textColor="@color/GreenApp"
 
                     android:textSize="24sp" />
@@ -235,21 +261,13 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
                     android:padding="2dp"
-                    android:text="@string/admpro1"
+                    android:text="@string/sports"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
-                <TextView
-                    android:id="@+id/admpro2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:layout_marginTop="5dp"
-                    android:padding="2dp"
-                    android:text="@string/admpro2"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -272,7 +290,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Admission"
+                    android:text="@string/strore2"
                     android:textColor="@color/GreenApp"
 
                     android:textSize="24sp" />
@@ -283,8 +301,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
                     android:padding="2dp"
-                    android:text="@string/admpro1"
+                    android:text="@string/store1"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
@@ -294,8 +313,9 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="3dp"
                     android:layout_marginTop="5dp"
+                    android:justificationMode="inter_word"
                     android:padding="2dp"
-                    android:text="@string/admpro2"
+                    android:text="@string/store3"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -310,91 +330,7 @@
             android:background="@drawable/gallerybackground"
             android:padding="5dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/adm"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Admission"
-                    android:textColor="@color/GreenApp"
-
-                    android:textSize="24sp" />
-
-                <TextView
-                    android:id="@+id/admpro1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:layout_marginTop="5dp"
-                    android:padding="2dp"
-                    android:text="@string/admpro1"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:id="@+id/admpro2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:layout_marginTop="5dp"
-                    android:padding="2dp"
-                    android:text="@string/admpro2"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/admission"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/gallerybackground"
-            android:padding="5dp">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/adm"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Admission"
-                    android:textColor="@color/GreenApp"
-
-                    android:textSize="24sp" />
-
-                <TextView
-                    android:id="@+id/admpro1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:layout_marginTop="5dp"
-                    android:padding="2dp"
-                    android:text="@string/admpro1"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-
-                <TextView
-                    android:id="@+id/admpro2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:layout_marginTop="5dp"
-                    android:padding="2dp"
-                    android:text="@string/admpro2"
-                    android:textColor="@color/black"
-                    android:textSize="16sp" />
-            </LinearLayout>
 
         </androidx.cardview.widget.CardView>
 
