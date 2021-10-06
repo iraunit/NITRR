@@ -25,7 +25,9 @@
                 android:id="@+id/depname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:background="@drawable/gallerybackground"
+                android:text="TextView"
+                android:textAlignment="center" />
 
             <TextView
                 android:id="@+id/welcome"

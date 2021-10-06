@@ -2,6 +2,8 @@ package com.shyptsolution.nitrr.department
 
 import android.content.Context
 import android.content.Intent
+import android.media.Image
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +13,7 @@ import com.shyptsolution.nitrr.HomeFragment
 import com.shyptsolution.nitrr.R
 import com.shyptsolution.nitrr.faculties.Wholeinfo
 import com.shyptsolution.nitrr.gallery.PhotoActivity
+import com.squareup.picasso.Picasso
 
 class DepartmentAdapter(listofDept:ArrayList<Data>) : RecyclerView.Adapter<DepartmentAdapter.Holder>() {
 
@@ -52,11 +55,12 @@ class DepartmentAdapter(listofDept:ArrayList<Data>) : RecyclerView.Adapter<Depar
     override fun onBindViewHolder(holder: DepartmentAdapter.Holder, position: Int) {
         holder.one.text=listDept[position].name
         holder.two.text=listDept[position].dept
-        holder.image.setImageResource(listDept[position].image)
+        var url=listDept[position].image
+        var imageurl:ImageView=holder.image
         holder.three.text=listDept[position].established
         holder.four.text=listDept[position].intake
         holder.five.text=listDept[position].degree
-
+        Picasso.get().load(url).into(imageurl)
 
 
         val isVisible:Boolean=listDept[position].visibilty
@@ -67,8 +71,19 @@ class DepartmentAdapter(listofDept:ArrayList<Data>) : RecyclerView.Adapter<Depar
             notifyItemChanged(position)
         }
         holder.button.setOnClickListener {
-            Toast.makeText(context,"Hello lol",Toast.LENGTH_SHORT).show()
             var intent=Intent(context,Wholeinfo::class.java)
+            intent.putExtra("namee",listDept[position].name)
+            intent.putExtra("dept",listDept[position].dept)
+            intent.putExtra("vision",listDept[position].vision)
+            intent.putExtra("mission",listDept[position].mission)
+            intent.putExtra("HOD",listDept[position].HOD)
+            intent.putExtra("fac1",listDept[position].fac1)
+            intent.putExtra("fac2",listDept[position].fac2)
+            intent.putExtra("fac3",listDept[position].fac3)
+            intent.putExtra("staff1",listDept[position].staff1)
+            intent.putExtra("staff2",listDept[position].staff2)
+            intent.putExtra("image",listDept[position].image)
+
             context?.startActivity(intent)
         }
 
