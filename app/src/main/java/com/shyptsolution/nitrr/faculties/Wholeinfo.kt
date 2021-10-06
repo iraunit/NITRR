@@ -23,7 +23,7 @@ class Wholeinfo : AppCompatActivity() {
         var faculty2=findViewById<TextView>(R.id.faculty2)
         var staff1=findViewById<TextView>(R.id.staff1)
         var staff2=findViewById<TextView>(R.id.staff2)
-        var degeeoffer=findViewById<TextView>(R.id.degeeoffer)
+
 
 
 

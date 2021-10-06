@@ -5,4 +5,7 @@
     <string name="tabletitle">The following table shows NIT Raipur highlights 2021:</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="admpro1">One needs to take the JEE (Main) exam and pass the Class XII board examination. Read JEE Main Performance Criteria in Class XII.</string>
+    <string name="admpro2">Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round.</string>
+    <string name="centrallib">The Central Library of NIT, Raipur has a good collection of more than 1 lakh of print books , more than 1.7 lacs e-books consisting of both text and reference books Ph.D theses, online journal Archive collections and online protocols . Besides it subscribes to a good number of full text online databases ,Indian print journals . The Central Library is fully automated through LibSys7- Library management software .The Web OPAC is fully functional. RFID system has been installed in the Reading Room of Central Library.It also has Discovery Service ,Remote access facilities and plagiarism check software like Turnitin Feedback Studio and URKUND .It caters to the information and document need of nearly 5000 users consisting of Faculty members, staff, B.Tech/M.Tech/MCA students and research scholars satisfactorily.</string>
 </resources>

@@ -4,11 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Adapter
+import android.widget.Button
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.shyptsolution.nitrr.admission.Admissionfragment
+import com.shyptsolution.nitrr.archive.ArchiveFragment
 import com.shyptsolution.nitrr.department.Department
 import com.shyptsolution.nitrr.department.DepartmentData
 import com.shyptsolution.nitrr.gallery.Gallery
@@ -38,10 +41,13 @@ class MainActivity : AppCompatActivity() {
         var firstFragment=HomeFragment()
         var deptfragment= Department()
         var gallery=Gallery()
+        var archive=ArchiveFragment()
+        var adm=Admissionfragment()
         var fab:View= findViewById<FloatingActionButton>(R.id.floatingicon)
         fab.setOnClickListener {
             setCurrentFragment(firstFragment)
         }
+
         setCurrentFragment(firstFragment)
         bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
@@ -52,10 +58,10 @@ class MainActivity : AppCompatActivity() {
 //                    setCurrentFragment(secondFragment)
                 }
                 R.id.archive-> {
-//                    setCurrentFragment(thirdFragment)
+                    setCurrentFragment(archive)
                 }
                 R.id.money->{
-//                    setCurrentFragment(secondFragment)
+                    setCurrentFragment(adm)
                 }
                 R.id.gallery->{
                     setCurrentFragment(gallery)
@@ -71,10 +77,10 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.archive-> {
-//                    setCurrentFragment(thirdFragment)
+                    setCurrentFragment(archive)
                 }
                 R.id.money->{
-//                    setCurrentFragment(secondFragment)
+                    setCurrentFragment(adm)
                 }
                 R.id.gallery->{
                     setCurrentFragment(gallery)

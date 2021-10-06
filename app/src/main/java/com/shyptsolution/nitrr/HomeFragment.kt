@@ -5,11 +5,15 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.ImageView
+import android.widget.Toast
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.shyptsolution.nitrr.admission.Admissionfragment
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.fragment_admissionfragment.*
 import kotlinx.android.synthetic.main.fragment_home.*
 
 // TODO: Rename parameter arguments, choose names that match
@@ -75,7 +79,9 @@ class HomeFragment : Fragment() {
         var imagepicaso:ImageView?=null
         val view= inflater.inflate(R.layout.fragment_home, container, false)
         imagepicaso=view.findViewById(R.id.maingate)
-        Picasso.get().load("http://www.nitrr.ac.in/faculty_photoes/Computer%20Science%20&%20Engineering/Mr.%20Dilip%20Singh%20Sisodia.jpg").into(imagepicaso)
+
+
+//        Picasso.get().load("http://www.nitrr.ac.in/faculty_photoes/Computer%20Science%20&%20Engineering/Mr.%20Dilip%20Singh%20Sisodia.jpg").into(imagepicaso)
         mapView=view.findViewById(R.id.mapView)
         return view
     }

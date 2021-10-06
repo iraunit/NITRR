@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import com.shyptsolution.nitrr.R
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.gallery_ticket.view.*
 
 class GalleryAdapter(gallerylist:ArrayList<GalleryDataModel>):BaseAdapter() {
@@ -28,14 +29,16 @@ class GalleryAdapter(gallerylist:ArrayList<GalleryDataModel>):BaseAdapter() {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
        var inflator=LayoutInflater.from(parent?.context).inflate(R.layout.gallery_ticket,null)
-        image=inflator.findViewById(R.id.gallery)
+        image=inflator.findViewById(R.id.galleryimage)
         var context=parent?.context
-       inflator.galleryimage.setImageResource(galleryList[position].image)
+        var url=galleryList[position].image
+        Picasso.get().load(url).into(image)
+
+//       inflator.galleryimage.setImageResource(galleryList[position].image)
         inflator.gallerylayout?.setOnClickListener {
 
-
             var intent=Intent(context,PhotoActivity::class.java)
-            intent.putExtra("image",galleryList[position]!!.image)
+            intent.putExtra("image",galleryList[position].image)
             context?.startActivity(intent)
         }
 

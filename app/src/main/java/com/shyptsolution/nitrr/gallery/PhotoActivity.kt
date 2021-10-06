@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import androidx.appcompat.app.ActionBar
 import com.shyptsolution.nitrr.R
+import com.squareup.picasso.Picasso
 
 class PhotoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,8 +15,8 @@ class PhotoActivity : AppCompatActivity() {
 //        var image=intent.getStringExtra("imageee")
         var gallerylar=findViewById<ImageView>(R.id.gallerylarge)
         val bundle= intent.extras
-        val resId: Int = bundle!!.getInt("image")
-        gallerylar.setImageResource(resId)
+        val resId = bundle!!.getString("image")
+        Picasso.get().load(resId).into(gallerylar)
         val actionbar = supportActionBar
         //set actionbar title
         actionbar!!.title = "Gallery"
