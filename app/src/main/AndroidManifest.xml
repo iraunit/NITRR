@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NITRR">
         <activity
+            android:name=".faculties.Wholeinfo"
+            android:exported="true" />
+        <activity
             android:name=".gallery.PhotoActivity"
             android:exported="true" />
         <activity
