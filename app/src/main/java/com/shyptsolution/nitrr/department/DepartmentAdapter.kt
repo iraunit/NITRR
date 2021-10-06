@@ -1,22 +1,17 @@
 package com.shyptsolution.nitrr.department
 
 import android.view.LayoutInflater
-import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.RecyclerView
-import com.shyptsolution.nitrr.MainFragment
+import com.shyptsolution.nitrr.HomeFragment
 import com.shyptsolution.nitrr.R
-import org.w3c.dom.Text
 
 class DepartmentAdapter(listofDept:ArrayList<Data>) : RecyclerView.Adapter<DepartmentAdapter.Holder>() {
 
     var listDept:ArrayList<Data> =listofDept
-    var homefragment=MainFragment()
+    var homefragment=HomeFragment()
     var thisfragment=Department()
  inner   class Holder(itemview: View):RecyclerView.ViewHolder(itemview) {
                  var one:TextView

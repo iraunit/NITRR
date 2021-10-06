@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="horizontal"
     android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -14,18 +15,17 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="300dp"
-                android:paddingTop="4dp"
-                android:paddingLeft="2dp"
-                android:paddingRight="2dp"
-                app:cardCornerRadius="5dp"
                 android:outlineAmbientShadowColor="@color/black"
                 android:outlineSpotShadowColor="@color/black"
-                >
+                android:paddingLeft="2dp"
+                android:paddingTop="4dp"
+                android:paddingRight="2dp"
+                app:cardCornerRadius="5dp">
 
                 <ImageView
                     android:id="@+id/maingate"
@@ -74,7 +74,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -320,9 +320,9 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="@drawable/background"
-                android:padding="2dp"
-                android:layout_height="match_parent" >
+                android:padding="2dp">
 
                 <TableLayout
                     android:layout_width="match_parent"
@@ -353,11 +353,11 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
+                            android:layout_marginRight="13dp"
                             android:layout_weight="1"
                             android:background="@drawable/background"
                             android:fontFamily="@font/robotomedium"
                             android:padding="2dp"
-                            android:layout_marginRight="13dp"
                             android:text="Statistics"
                             android:textAlignment="center"
                             android:textColor="@color/white"
@@ -372,28 +372,27 @@
                             android:id="@+id/establishment"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/robotoregular"
                             android:layout_gravity="center"
                             android:layout_weight="1"
-                            android:text="Establishment year"
+                            android:fontFamily="@font/robotoregular"
                             android:paddingTop="2dp"
+                            android:text="Establishment year"
+                            android:textAlignment="center"
                             android:textColor="@color/black"
-                            android:textSize="16sp"
-                            android:textAlignment="center" />
+                            android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/year"
-                            android:paddingTop="2dp"
-                            android:textColor="@color/black"
-                            android:textSize="16sp"
-                            android:fontFamily="@font/robotoregular"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_weight="1"
+                            android:fontFamily="@font/robotoregular"
+                            android:paddingTop="2dp"
                             android:text="1956"
                             android:textAlignment="center"
-                          />
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
                     </TableRow>
 
                     <TableRow
@@ -404,15 +403,14 @@
                             android:id="@+id/Ownership"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/robotoregular"
                             android:layout_gravity="center"
                             android:layout_weight="1"
-                            android:text="Ownership"
+                            android:fontFamily="@font/robotoregular"
                             android:paddingTop="2dp"
-                            android:textColor="@color/black"
-                            android:textSize="16sp"
+                            android:text="Ownership"
                             android:textAlignment="center"
-                          />
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/Government"
@@ -436,15 +434,14 @@
                             android:id="@+id/Location"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/robotoregular"
                             android:layout_gravity="center"
                             android:layout_weight="1"
-                            android:text="Location"
+                            android:fontFamily="@font/robotoregular"
                             android:paddingTop="2dp"
-                            android:textColor="@color/black"
-                            android:textSize="16sp"
+                            android:text="Location"
                             android:textAlignment="center"
-                            />
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/raipur"
@@ -468,15 +465,14 @@
                             android:id="@+id/campus"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/robotoregular"
                             android:layout_gravity="center"
                             android:layout_weight="1"
-                            android:text="Campus size"
+                            android:fontFamily="@font/robotoregular"
                             android:paddingTop="2dp"
-                            android:textColor="@color/black"
-                            android:textSize="16sp"
+                            android:text="Campus size"
                             android:textAlignment="center"
-                            />
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/acres"
@@ -501,15 +497,14 @@
                             android:id="@+id/Status"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/robotoregular"
                             android:layout_gravity="center"
                             android:layout_weight="1"
-                            android:text="Status"
+                            android:fontFamily="@font/robotoregular"
                             android:paddingTop="2dp"
-                            android:textColor="@color/black"
-                            android:textSize="16sp"
+                            android:text="Status"
                             android:textAlignment="center"
-                            />
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/NIT"
@@ -534,15 +529,14 @@ Institute of National Importance"
                             android:id="@+id/Ownership"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/robotoregular"
                             android:layout_gravity="center"
                             android:layout_weight="1"
-                            android:text="Ownership"
+                            android:fontFamily="@font/robotoregular"
                             android:paddingTop="2dp"
-                            android:textColor="@color/black"
-                            android:textSize="16sp"
+                            android:text="Ownership"
                             android:textAlignment="center"
-                            />
+                            android:textColor="@color/black"
+                            android:textSize="16sp" />
 
                         <TextView
                             android:id="@+id/Government"
@@ -630,7 +624,14 @@ Institute of National Importance"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
                 </TableLayout>
+
             </androidx.cardview.widget.CardView>
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                tools:ignore="SpeakableTextPresentCheck" />
 
         </LinearLayout>
     </ScrollView>

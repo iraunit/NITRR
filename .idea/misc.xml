@@ -6,15 +6,19 @@
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/drawable/background.xml" value="0.16623931623931623" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/drawable/button_background.xml" value="0.16623931623931623" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/drawable/button_background_selected.xml" value="0.16623931623931623" />
+        <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/drawable/gallerybackground.xml" value="0.16623931623931623" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/font/font.xml" value="0.21666666666666667" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/cardview.xml" value="0.4" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/fragment_department.xml" value="0.152991452991453" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/fragment_faculties.xml" value="0.152991452991453" />
+        <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/fragment_gallery.xml" value="0.152991452991453" />
+        <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/fragment_home.xml" value="0.14145299145299145" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/fragment_main.xml" value="0.25" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/fragment_people_fragment.xml" value="0.4" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/fragment_second.xml" value="0.1" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/fragment_third.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/gallery_ticket.xml" value="0.264" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/layout/row.xml" value="0.11313868613138686" />
         <entry key="..\:/Users/welcome/AndroidStudioProjects/NITRR/app/src/main/res/menu/bottom_nav.xml" value="0.18645833333333334" />
       </map>

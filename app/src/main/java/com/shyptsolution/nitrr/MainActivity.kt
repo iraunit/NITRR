@@ -11,6 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.shyptsolution.nitrr.department.Department
 import com.shyptsolution.nitrr.department.DepartmentData
+import com.shyptsolution.nitrr.gallery.Gallery
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -34,8 +35,9 @@ class MainActivity : AppCompatActivity() {
         var bottomNavigationView=findViewById<BottomNavigationView>(R.id.bottomnavigationview)
         bottomnavigationview.background=null
         bottomnavigationview.menu.getItem(2).isEnabled=false
-        var firstFragment=MainFragment()
+        var firstFragment=HomeFragment()
         var deptfragment= Department()
+        var gallery=Gallery()
         var fab:View= findViewById<FloatingActionButton>(R.id.floatingicon)
         fab.setOnClickListener {
             setCurrentFragment(firstFragment)
@@ -56,7 +58,7 @@ class MainActivity : AppCompatActivity() {
 //                    setCurrentFragment(secondFragment)
                 }
                 R.id.gallery->{
-                    setCurrentFragment(firstFragment)
+                    setCurrentFragment(gallery)
                 }
             }
             true
@@ -75,7 +77,7 @@ class MainActivity : AppCompatActivity() {
 //                    setCurrentFragment(secondFragment)
                 }
                 R.id.gallery->{
-//                    setCurrentFragment(secondFragment)
+                    setCurrentFragment(gallery)
                 }
 
             }
