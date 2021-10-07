@@ -15,7 +15,7 @@
         />
 
     <item android:id="@+id/archive"
-        android:title="Archive"
+        android:title="Facilities"
         android:icon="@drawable/ic_archive"/>
 
 

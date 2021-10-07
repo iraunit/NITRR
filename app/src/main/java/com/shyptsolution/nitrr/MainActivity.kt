@@ -3,6 +3,7 @@ package com.shyptsolution.nitrr
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -21,6 +22,7 @@ import com.shyptsolution.nitrr.department.DepartmentData
 import com.shyptsolution.nitrr.gallery.Gallery
 import kotlinx.android.synthetic.main.activity_main.*
 import android.os.Vibrator
+import android.view.WindowManager
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 
@@ -43,6 +45,14 @@ class MainActivity : AppCompatActivity() {
 //            "Hello",
 //            Snackbar.LENGTH_SHORT
 //        ).show()
+
+
+        if (Build.VERSION.SDK_INT >= 21) {
+            val window = this.window
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+            window.statusBarColor = this.resources.getColor(R.color.royalblue)
+        }
 
         val vibe = this.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
 

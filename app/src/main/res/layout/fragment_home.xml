@@ -800,6 +800,7 @@
                         android:textSize="20sp" />
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/poorti"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
@@ -883,6 +884,424 @@
                                 android:fontFamily="@font/robotolight"
                                 android:padding="3dp"
                                 android:text="Our college is good, but it needs to improve a little in terms of providing exposure."
+                                android:textColor="@color/black"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:justificationMode="inter_word"
+                                android:padding="3dp"
+                                android:text="Placements: Campus placements are not available for architecture students so that you won't get jobs after passed out of college. But here we are taught to be our own boss and not to work under any boss. We are also taught to start our own business and practice.  Infrastructure: All the facilities like Wi-Fi facility, labs, studios, library, toilets, girls common room, computer lab, etc., are available. Only washrooms are a little disorganised. The infrastructure of our college is the same as the infrastructure of a government college, but the degree matters a lot. NIT Raipur comes under top 25 colleges in India.  Faculty: It's a tough course, and interest must be needed, and you should give priority towards dedication for the course. Many fun events and cultural events are conducted here. If you start enjoying the course, then it will provide you great success.  Other: The best thing about the course is that it provides chances to roam around the cities and countries for study purpose. It enables students to develop themselves overall, not just to gain marks but also the personality."
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/poorti"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/gallerybackground"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:padding="3dp"
+                                    android:text="Lisha Kunui"
+                                    android:textColor="@color/royalblue"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:gravity="center"
+                                    android:padding="3dp"
+                                    android:text="(B.Arch.) 2020"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="15 Nov 2017"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="2.2 ★"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:padding="3dp"
+                                android:text="Dissatisfied because of the faculty."
+                                android:textColor="@color/black"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:justificationMode="inter_word"
+                                android:padding="3dp"
+                                android:text="Placements: We don't get the placement offers here. There are chances that we can give the exams to get the placement in different companies. Only 2 of my senior students got placed in good companies, that too, by giving the exams. The placement is something that every college should provide.  Infrastructure: The classrooms or the studios aren't arranged well and sometimes, and the provided tables are of bad quality. The college has quite an interest in the sports. Different batches and branches compete with each other during the sports events. The library is well maintained with all kinds of necessary books easily available. The food is good in the canteen. The hostel rooms are good, but the in-time is 8 which is not good. In fact, about the hostel toilets, though they are being cleaned daily, it looks unhygienic.  Faculty: There are only four permanent faculty members in our department, and the rest are the temporary ones. All the faculty members in our department are knowledgeable, but not friendly at all. They do not consider our problems like theirs. We don't feel free to discuss our problems with the permanent faculty members. We can discuss our problems freely with some of the temporary faculty members. They are ready to help us in any of situation.  Other: The teachers are biased towards some students and thus they give the preference to those students. And, it becomes very difficult to communicate with the teachers for the rest of the students. The toilets in the architectural department are in very bad condition. In fact, the common rooms are used as stores as well."
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/poorti"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/gallerybackground"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:padding="3dp"
+                                    android:text="Samarth Surya "
+                                    android:textColor="@color/royalblue"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:gravity="center"
+                                    android:padding="3dp"
+                                    android:text="B.Tech. in Biotechnology 2024"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="14 Jul 2021"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="4.8 ★"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:padding="3dp"
+                                android:text="NIT Raipur is one of the most emerging NITs of India. It has improved its rankings consistently."
+                                android:textColor="@color/black"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:justificationMode="inter_word"
+                                android:padding="3dp"
+                                android:text="Placements: The average salary package offered is above 9 LPA. Most companies hire from CS-IT branches. The placement scenario has been good for the past 5 years. Well-renowned and recognised companies come here each year to hire quality graduates. Many seniors will help you with everything.  Infrastructure: Infrastructure is still under construction and is developing. It has a large ground for cricket and football. We have a community hall, Amul Parlour, and a canteen. A couple of basketball courts are also available. The sports committee, Shaurya is active and conducts regular events.  Faculty: Some teachers are helpful and knowledgeable, while others are just there to complete the course without explaining anything to students. The computer science department is good with some young professors. Overall it is great to learn from them and work on projects."
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/poorti"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/gallerybackground"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:padding="3dp"
+                                    android:text=" Prashant Sahu "
+                                    android:textColor="@color/royalblue"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:gravity="center"
+                                    android:padding="3dp"
+                                    android:text="B.Tech. in Electrical Engineering 2024"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="2 Jul 2021"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="4.4 ★"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:padding="3dp"
+                                android:text="The college is close to the city, and has fine infrastructure."
+                                android:textColor="@color/black"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:justificationMode="inter_word"
+                                android:padding="3dp"
+                                android:text="Placements: There are around 90 students in our batch. In the 2nd and 3rd years, everyone got internships in core as well as non-core companies. Almost 75% of the students got placed in companies including PSU and corporates. General electrics and HCL are the top recruiting companies. From our branch, the highest salary package offered was 30 LPA in core company, while in non-core companies, the highest salary package offered is 45 LPA.  Infrastructure: We have free Wi-Fi in the hostel and college buildings. Our college has a huge number of branches among government engineering colleges of the country. Labs are well-maintained and the food served is good. However, hostels are not enough, but the campus area is so large. There are medical and cafe facilities.  Faculty: Good number of faculty members are available in our college. They are supportive and helpful. The teaching content is mainly theoretical during online classes but the rest is all good. Pass percentage is 6.9 CPI and semester exams are tougher according to the HOD of branches. Practical exams are held strictly.  Other: Around two fests are held in a year. Famous celebrities like Darshan Rawal are invited. The campus life here is good"
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/poorti"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/gallerybackground"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:padding="3dp"
+                                    android:text=" Aanchal Sharma"
+                                    android:textColor="@color/royalblue"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:gravity="center"
+                                    android:padding="3dp"
+                                    android:text="B.Tech. in Electronics and Communication Engineering 2024"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="14 Jun 2021"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="4.2 ★"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:padding="3dp"
+                                android:text="Review of NIT Raipur - National Institute of Technology."
                                 android:textColor="@color/black"
                                 android:textSize="17sp"
                                 android:textStyle="bold" />
