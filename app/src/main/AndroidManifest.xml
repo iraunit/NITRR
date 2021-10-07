@@ -2,8 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shyptsolution.nitrr">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERACT_ACROSS_PROFILES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
     <application
+
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:usesCleartextTraffic="true"
@@ -11,6 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NITRR">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCMdY2P0rE0c9-WIDw2a-GoybSOxI-RRpI"/>
         <activity
             android:name=".faculties.Wholeinfo"
             android:exported="true" />

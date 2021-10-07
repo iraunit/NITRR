@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/bottomappbar"
         app:fabCradleMargin="5dp"
+        android:hapticFeedbackEnabled="true"
+        app:titleTextColor="@color/royalblue"
         app:fabCradleRoundedCornerRadius="5dp"
         android:background="@color/black"
         android:layout_gravity="bottom">
@@ -27,8 +29,13 @@
      <com.google.android.material.bottomnavigation.BottomNavigationView
          android:layout_width="match_parent"
          android:layout_height="match_parent"
+         android:hapticFeedbackEnabled="true"
          android:id="@+id/bottomnavigationview"
          app:menu="@menu/bottom_nav"
+         app:itemTextColor="@color/royalblue"
+         app:itemRippleColor="@color/royalblue"
+         app:itemTextAppearanceActive="@color/GreenApp"
+
             android:background="@color/transparent"
 
 

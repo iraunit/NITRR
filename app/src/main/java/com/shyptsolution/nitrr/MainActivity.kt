@@ -1,5 +1,8 @@
 package com.shyptsolution.nitrr
 
+import android.Manifest
+import android.content.Context
+import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -10,12 +13,16 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
 import com.shyptsolution.nitrr.admission.Admissionfragment
 import com.shyptsolution.nitrr.archive.ArchiveFragment
 import com.shyptsolution.nitrr.department.Department
 import com.shyptsolution.nitrr.department.DepartmentData
 import com.shyptsolution.nitrr.gallery.Gallery
 import kotlinx.android.synthetic.main.activity_main.*
+import android.os.Vibrator
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 
 
 class MainActivity : AppCompatActivity() {
@@ -29,11 +36,15 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar!!.hide()
 
+        Toast.makeText(this,"Developed By Raunit Verma", Toast.LENGTH_LONG).show()
 
+//        Snackbar.make(
+//            findViewById(R.id.layoutlin),
+//            "Hello",
+//            Snackbar.LENGTH_SHORT
+//        ).show()
 
-
-
-
+        val vibe = this.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
 
         var bottomNavigationView=findViewById<BottomNavigationView>(R.id.bottomnavigationview)
         bottomnavigationview.background=null
@@ -46,25 +57,31 @@ class MainActivity : AppCompatActivity() {
         var fab:View= findViewById<FloatingActionButton>(R.id.floatingicon)
         fab.setOnClickListener {
             setCurrentFragment(firstFragment)
+            vibe.vibrate(30)
         }
 
+        vibe.vibrate(10)
         setCurrentFragment(firstFragment)
         bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.people-> {
                     setCurrentFragment(deptfragment)
+                    vibe.vibrate(15)
                 }
                 R.id.home-> {
 //                    setCurrentFragment(secondFragment)
                 }
                 R.id.archive-> {
                     setCurrentFragment(archive)
+                    vibe.vibrate(15)
                 }
                 R.id.money->{
                     setCurrentFragment(adm)
+                    vibe.vibrate(15)
                 }
                 R.id.gallery->{
                     setCurrentFragment(gallery)
+                    vibe.vibrate(15)
                 }
             }
             true
@@ -74,21 +91,27 @@ class MainActivity : AppCompatActivity() {
             when(it.itemId){
                 R.id.people-> {
                     setCurrentFragment(deptfragment)
+                    vibe.vibrate(50)
                 }
 
                 R.id.archive-> {
                     setCurrentFragment(archive)
+                    vibe.vibrate(50)
                 }
                 R.id.money->{
                     setCurrentFragment(adm)
+                    vibe.vibrate(50)
                 }
                 R.id.gallery->{
-                    setCurrentFragment(gallery)
+                    setCurrentFragment(gallery )
+                    vibe.vibrate(50)
+
                 }
 
             }
 
         }
+
 
 
 
@@ -113,11 +136,11 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
-
     fun setCurrentFragment(fragment: Fragment)=
         supportFragmentManager.beginTransaction().apply {
             replace(R.id.mainfragment,fragment)
             commit()
         }
+
+
 }

@@ -1,5 +1,6 @@
 package com.shyptsolution.nitrr
 
+import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,6 +9,8 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
@@ -26,14 +29,13 @@ private const val ARG_PARAM2 = "param2"
  * Use the [HomeFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class HomeFragment : Fragment() {
+class HomeFragment : Fragment(), OnMapReadyCallback {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
 
-    private  lateinit var googleMap: GoogleMap
-  lateinit  var mapView:MapView
-
+    private lateinit var googleMap: GoogleMap
+    lateinit var mapView: MapView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -43,13 +45,13 @@ class HomeFragment : Fragment() {
 
 
         fun onMapReady(googleMap: GoogleMap) {
-            val sydney = LatLng(-33.852, 151.211)
+            val raipur = LatLng(48.8583, 2.2923)
             googleMap.addMarker(
                 MarkerOptions()
-                    .position(sydney)
-                    .title("Marker in Sydney")
+                    .position(raipur)
+                    .title("NIT Raipur")
             )
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+            googleMap.moveCamera(CameraUpdateFactory.newLatLng(raipur))
         }
 
     }
@@ -61,28 +63,23 @@ class HomeFragment : Fragment() {
 //        mapView.getMapAsync(this)
 //    }
 //
-//    override fun onMapReady(map: GoogleMap) {
-//        val sydney = LatLng(-33.852, 151.211)
-//        googleMap.addMarker(
-//            MarkerOptions()
-//                .position(sydney)
-//                .title("Marker in Sydney")
-//        )
-//        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
-//    }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        var imagepicaso:ImageView?=null
-        val view= inflater.inflate(R.layout.fragment_home, container, false)
-        imagepicaso=view.findViewById(R.id.maingate)
+        var imagepicaso: ImageView? = null
+        val view = inflater.inflate(R.layout.fragment_home, container, false)
+        imagepicaso = view.findViewById(R.id.maingate)
+        var supprtmap: SupportMapFragment
 
-
-//        Picasso.get().load("http://www.nitrr.ac.in/faculty_photoes/Computer%20Science%20&%20Engineering/Mr.%20Dilip%20Singh%20Sisodia.jpg").into(imagepicaso)
-        mapView=view.findViewById(R.id.mapView)
+//        Picasso.get().load("https://lh3.googleusercontent.com/proxy/oQfOb0z1ueAM6CRot8re6TKevN20GJoQ3KPZzoTaFGPXhqbh-BJgBI9qBdXfRb8H_8Nm-zoPbKDO6-Cmu8n1tO_zUQXErWn2r9MDm1O3TK_18FkRRdJ_R3t5YeWWWD1RVQ").into(imagepicaso)
+        mapView = view.findViewById(R.id.mapView)
+        mapView.onCreate(savedInstanceState)
+        mapView.onResume()
+        mapView.getMapAsync(this)
         return view
     }
 
@@ -106,5 +103,23 @@ class HomeFragment : Fragment() {
             }
     }
 
+    override fun onMapReady(map: GoogleMap) {
+        map?.let {
+            googleMap=it
+        }
+        val sydney = LatLng(21.245520, 81.642050)
+        googleMap.addMarker(
+            MarkerOptions()
+                .position(sydney)
+                .title("NIT Raipur CSE Department")
+        )
+        var zoomlevel=10.0f
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney,zoomlevel))
+//    }
+
+
+    }
+
 
 }
+

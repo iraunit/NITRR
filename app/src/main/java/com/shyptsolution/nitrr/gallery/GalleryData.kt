@@ -28,6 +28,19 @@ object GalleryData {
                 galleryphoto.add(GalleryDataModel("http://www.nitrr.ac.in/downloads/lab%20photos/MCA/2.jpg"))
                 galleryphoto.add(GalleryDataModel("http://www.nitrr.ac.in/mining/mining1.JPG"))
                 galleryphoto.add(GalleryDataModel("http://www.nitrr.ac.in/mining/mining5.JPG"))
+                galleryphoto.add(GalleryDataModel("http://gecnitrralumni.org/assets/img/spring1.jpg"))
+                galleryphoto.add(GalleryDataModel("http://gecnitrralumni.org/assets/img/bg1.jpg"))
+                galleryphoto.add(GalleryDataModel("http://images.shiksha.com/mediadata/images/1608124195phpNdkW40.png"))
+                galleryphoto.add(GalleryDataModel("http://images.shiksha.com/mediadata/images/1608124238phpICgQUr.jpeg"))
+                galleryphoto.add(GalleryDataModel("http://images.shiksha.com/mediadata/images/1608124272php5bU8tg.jpeg"))
+//                galleryphoto.add(GalleryDataModel(""))
+//                galleryphoto.add(GalleryDataModel(""))
+//                galleryphoto.add(GalleryDataModel(""))
+//                galleryphoto.add(GalleryDataModel(""))
+//                galleryphoto.add(GalleryDataModel(""))
+//                galleryphoto.add(GalleryDataModel(""))
+
+
 
 
 
