@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -59,6 +60,14 @@
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
+                <ImageView
+                    android:id="@+id/libraryimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
 
             </LinearLayout>
 
@@ -99,6 +108,14 @@
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
+                <ImageView
+                    android:id="@+id/hostel"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -137,6 +154,14 @@
                     android:text="@string/medical"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
+                <ImageView
+                    android:id="@+id/dispensary"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
 
                 <TextView
                     android:id="@+id/admpro2"
@@ -188,6 +213,14 @@
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
+                <ImageView
+                    android:id="@+id/guesthouse"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
 
             </LinearLayout>
 
@@ -228,6 +261,14 @@
                     android:textColor="@color/black"
                     android:textSize="16sp" />
 
+                <ImageView
+                    android:id="@+id/estateoffice"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -266,8 +307,26 @@
                     android:text="@string/sports"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
-
-
+                <ImageView
+                    android:id="@+id/sports"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+                <ImageView
+                    android:id="@+id/sports1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    tools:src="@tools:sample/backgrounds/scenic" /><ImageView
+                android:id="@+id/sports2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                tools:src="@tools:sample/backgrounds/scenic" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -318,19 +377,9 @@
                     android:text="@string/store3"
                     android:textColor="@color/black"
                     android:textSize="16sp" />
+
+
             </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:id="@+id/admission"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:background="@drawable/gallerybackground"
-            android:padding="5dp">
-
-
 
         </androidx.cardview.widget.CardView>
 

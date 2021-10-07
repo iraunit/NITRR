@@ -27,7 +27,8 @@
                 <ImageView
                     android:id="@+id/departimage"
                     android:layout_width="match_parent"
-                    android:layout_height="150dp"
+                    android:layout_height="250dp"
+                    android:background="@drawable/gallerybackground"
                     android:padding="5dp"
                     tools:srcCompat="@tools:sample/backgrounds/scenic" />
             </androidx.cardview.widget.CardView>
@@ -56,9 +57,9 @@
                         android:background="@drawable/gallerybackground"
                         android:fontFamily="@font/robotomedium"
                         android:padding="2dp"
-                        android:textColor="@color/black"
                         android:text="TextView"
                         android:textAlignment="center"
+                        android:textColor="@color/GreenApp"
                         android:textSize="24sp" />
 
                     <TextView
@@ -69,17 +70,19 @@
                         android:fontFamily="@font/robotoregular"
                         android:padding="5dp"
                         android:text="TextView"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/Vison"
-                        android:textColor="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:fontFamily="@font/robotoregular"
                         android:padding="5dp"
                         android:text="Vision"
+                        android:textColor="@color/royalblue"
                         android:textSize="20sp" />
 
                     <TextView
@@ -90,17 +93,18 @@
                         android:fontFamily="@font/robotolight"
                         android:padding="5dp"
                         android:text="TextView"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
 
                     <TextView
                         android:id="@+id/mison"
-                        android:textColor="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:fontFamily="@font/robotoregular"
                         android:padding="5dp"
                         android:text="Mission"
+                        android:textColor="@color/royalblue"
                         android:textSize="20sp" />
 
                     <TextView
@@ -111,6 +115,7 @@
                         android:fontFamily="@font/robotolight"
                         android:padding="5dp"
                         android:text="TextView"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -131,14 +136,14 @@
 
                     <TextView
                         android:id="@+id/HODD"
-                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:fontFamily="@font/robotoregular"
                         android:padding="5dp"
                         android:text="HOD"
-                        android:textSize="20sp"/>
+                        android:textColor="@color/royalblue"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/HOD"
@@ -147,7 +152,9 @@
                         android:layout_marginLeft="5dp"
                         android:fontFamily="@font/robotolight"
                         android:padding="5dp"
+                        android:shadowColor="@color/black"
                         android:text="TextView"
+                        android:textColor="@color/black"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -168,20 +175,21 @@
 
                     <TextView
                         android:id="@+id/facul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:fontFamily="@font/robotoregular"
                         android:padding="5dp"
-                        android:textSize="20sp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Faculties" />
+                        android:text="Faculties"
+                        android:textColor="@color/royalblue"
+                        android:textSize="20sp" />
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_margin="3dp"
-                        android:padding="3dp"
-                        android:layout_height="match_parent" >
+                        android:background="@drawable/gallerybackground"
+                        android:padding="3dp">
 
                         <TextView
                             android:id="@+id/faculty1"
@@ -191,14 +199,16 @@
                             android:fontFamily="@font/robotolight"
                             android:padding="5dp"
                             android:text="TextView"
+                            android:textColor="@color/black"
                             android:textSize="18sp" />
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_margin="3dp"
-                        android:padding="3dp"
-                        android:layout_height="match_parent" >
+                        android:background="@drawable/gallerybackground"
+                        android:padding="3dp">
 
                         <TextView
                             android:id="@+id/faculty2"
@@ -208,14 +218,16 @@
                             android:fontFamily="@font/robotolight"
                             android:padding="5dp"
                             android:text="TextView"
+                            android:textColor="@color/black"
                             android:textSize="18sp" />
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_margin="3dp"
-                        android:padding="3dp"
-                        android:layout_height="match_parent" >
+                        android:background="@drawable/gallerybackground"
+                        android:padding="3dp">
 
                         <TextView
                             android:id="@+id/faculty3"
@@ -224,7 +236,9 @@
                             android:layout_marginLeft="5dp"
                             android:fontFamily="@font/robotolight"
                             android:padding="5dp"
+                            android:shadowColor="@color/black"
                             android:text="TextView"
+                            android:textColor="@color/black"
                             android:textSize="18sp" />
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
@@ -245,14 +259,14 @@
 
                     <TextView
                         android:id="@+id/staf"
-                        android:textColor="@color/black"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:fontFamily="@font/robotoregular"
                         android:padding="5dp"
-                        android:textSize="20sp"
-                        android:text="Staff" />
+                        android:text="Staff"
+                        android:textColor="@color/royalblue"
+                        android:textSize="20sp" />
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
@@ -269,6 +283,7 @@
                             android:fontFamily="@font/robotolight"
                             android:padding="5dp"
                             android:text="TextView"
+                            android:textColor="@color/black"
                             android:textSize="18sp" />
                     </androidx.cardview.widget.CardView>
 
@@ -287,6 +302,7 @@
                             android:fontFamily="@font/robotolight"
                             android:padding="5dp"
                             android:text="TextView"
+                            android:textColor="@color/black"
                             android:textSize="18sp" />
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>

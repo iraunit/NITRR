@@ -9,11 +9,16 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.cardview.widget.CardView
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.youtube.player.YouTubeBaseActivity
+import com.google.android.youtube.player.YouTubeInitializationResult
+import com.google.android.youtube.player.YouTubePlayer
+import com.google.android.youtube.player.YouTubePlayerView
 import com.shyptsolution.nitrr.admission.Admissionfragment
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_admissionfragment.*
@@ -33,6 +38,10 @@ class HomeFragment : Fragment(), OnMapReadyCallback {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
+    var VIdeoid1="L0WGZSiOZsM"
+    var youtubeapikey="AIzaSyCMdY2P0rE0c9-WIDw2a-GoybSOxI-RRpI"
+    lateinit var youtubeplayer:YouTubePlayerView
+    lateinit var ytplayerinit:YouTubePlayer.OnInitializedListener
 
     private lateinit var googleMap: GoogleMap
     lateinit var mapView: MapView
@@ -80,6 +89,28 @@ class HomeFragment : Fragment(), OnMapReadyCallback {
         mapView.onCreate(savedInstanceState)
         mapView.onResume()
         mapView.getMapAsync(this)
+
+//        youtubeplayer=view.findViewById<YouTubePlayerView>(R.id.youtubeplaerarea)
+//        ytplayerinit=object : YouTubePlayer.OnInitializedListener{
+//            override fun onInitializationSuccess(
+//                p0: YouTubePlayer.Provider?,
+//                p1: YouTubePlayer?,
+//                p2: Boolean
+//            ) {
+//                p1?.loadVideo(VIdeoid1)
+//                youtubeplayer.initialize(youtubeapikey,ytplayerinit)
+//            }
+//
+//            override fun onInitializationFailure(
+//                p0: YouTubePlayer.Provider?,
+//                p1: YouTubeInitializationResult?
+//            ) {
+//                Toast.makeText(activity,"Please Connect to the Internet",Toast.LENGTH_LONG).show()
+//            }
+//
+//        }
+
+
         return view
     }
 

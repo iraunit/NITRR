@@ -5,7 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import com.shyptsolution.nitrr.R
+import com.squareup.picasso.Picasso
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,7 +37,30 @@ class ArchiveFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_archive, container, false)
+
+
+        var view:View=inflater.inflate(R.layout.fragment_archive, container, false)
+        var libraryimage:ImageView=view.findViewById(R.id.libraryimage)
+        var hostelimage:ImageView=view.findViewById(R.id.hostel)
+        var guestimage:ImageView=view.findViewById(R.id.guesthouse)
+        var estate:ImageView=view.findViewById(R.id.estateoffice)
+        var sportsimage:ImageView=view.findViewById(R.id.sports)
+        var dispensary:ImageView=view.findViewById(R.id.dispensary)
+        var sportsimage1:ImageView=view.findViewById(R.id.sports1)
+        var sportsimage2:ImageView=view.findViewById(R.id.sports2)
+
+        Picasso.get().load("https://scontent.fpat2-1.fna.fbcdn.net/v/t1.6435-9/38758751_268681270528640_942611739399159808_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=ly3JDEE0yicAX8VroEr&tn=lEWECTTT51wt7IBl&_nc_ht=scontent.fpat2-1.fna&oh=0652a51a132075f488407a6a0204dc9f&oe=61851093").into(libraryimage)
+        Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/9/93/NIT%2C_Raipur_Campus_%2C_H_hostel.png").into(hostelimage)
+        Picasso.get().load("https://lh3.googleusercontent.com/proxy/MCNK-_Z4nIRHFr1BYSSf3Az2XY0RSmUPQRKl38lSWge8HR_n5vN1tuVeTr07ImIxk7CMM0vWP1LEAeTAdu9pLffMgaXoFNPq-5Hq3TnY5ld6mFWcyQ").into(guestimage)
+        Picasso.get().load("https://pbs.twimg.com/media/EiHYSmFXYAEEIXo.jpg").into(estate)
+        Picasso.get().load("https://lh3.googleusercontent.com/proxy/KJf9-_p3f90YR5YwdkQanYE_QUopxB9jAKcdXzDP7wnews16Yby9Hz44aOq5r9V_0E23_soaX_KHxYR7iq8Sy90J98QZ3fg").into(sportsimage)
+        Picasso.get().load("https://lh5.googleusercontent.com/p/AF1QipMbbFAYg4rSif0TkLzmVKC0X5OPMO4-pRbSaYxU=w1080-k-no").into(dispensary)
+        Picasso.get().load("http://www.nitrr.ac.in/img/23.jpg").into(sportsimage1)
+        Picasso.get().load("http://www.nitrr.ac.in/img/22.jpg").into(sportsimage2)
+
+
+
+        return view
     }
 
     companion object {
