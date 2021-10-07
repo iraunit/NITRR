@@ -781,34 +781,138 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/youtube"
                 android:layout_width="match_parent"
-                android:layout_height="100dp" >
+                android:layout_height="wrap_content">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textView6"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="3dp"
-                    android:fontFamily="@font/robotomedium"
-                    android:padding="3dp"
-                    android:text="Reviews"
-                    android:textAlignment="center"
-                    android:textColor="@color/GreenApp"
-                    android:textSize="20sp" />
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotomedium"
+                        android:padding="3dp"
+                        android:text="Reviews"
+                        android:textAlignment="center"
+                        android:textColor="@color/GreenApp"
+                        android:textSize="20sp" />
 
-<!--                <fragment-->
-<!--                    android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"-->
-<!--                    android:id="@+id/youtubesupportfragment"-->
-<!--                    android:layout_width="match_parent"-->
-<!--                    android:layout_height="wrap_content"/>-->
-<!--                <com.google.android.youtube.player.YouTubePlayerView-->
-<!--                    android:layout_width="wrap_content"-->
-<!--                    android:id="@+id/youtubeplaerarea"-->
-<!--                    android:layout_height="250dp"/>-->
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/gallerybackground"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView12"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotoregular"
+                                    android:padding="3dp"
+                                    android:text="Poorti jain"
+                                    android:textColor="@color/royalblue"
+                                    android:textSize="16sp" />
+
+                                <TextView
+                                    android:id="@+id/textView11"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:gravity="center"
+                                    android:padding="3dp"
+                                    android:text="(B.Arch.) 2022"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/textView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="23 Sep 2019"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/textView10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="5sp"
+                                    android:layout_weight="1"
+                                    android:fontFamily="@font/robotolight"
+                                    android:padding="3dp"
+                                    android:text="3.2 ★"
+                                    android:textAlignment="textEnd"
+                                    android:textColor="@color/black"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:padding="3dp"
+                                android:text="Our college is good, but it needs to improve a little in terms of providing exposure."
+                                android:textColor="@color/black"
+                                android:textSize="17sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/gallerybackground"
+                                android:fontFamily="@font/robotolight"
+                                android:justificationMode="inter_word"
+                                android:padding="3dp"
+                                android:text="Placements: Campus placements are not available for architecture students so that you won't get jobs after passed out of college. But here we are taught to be our own boss and not to work under any boss. We are also taught to start our own business and practice.  Infrastructure: All the facilities like Wi-Fi facility, labs, studios, library, toilets, girls common room, computer lab, etc., are available. Only washrooms are a little disorganised. The infrastructure of our college is the same as the infrastructure of a government college, but the degree matters a lot. NIT Raipur comes under top 25 colleges in India.  Faculty: It's a tough course, and interest must be needed, and you should give priority towards dedication for the course. Many fun events and cultural events are conducted here. If you start enjoying the course, then it will provide you great success.  Other: The best thing about the course is that it provides chances to roam around the cities and countries for study purpose. It enables students to develop themselves overall, not just to gain marks but also the personality."
+                                android:textColor="@color/black"
+                                android:textSize="17sp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <!--                <fragment-->
+                <!--                    android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"-->
+                <!--                    android:id="@+id/youtubesupportfragment"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"/>-->
+                <!--                <com.google.android.youtube.player.YouTubePlayerView-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:id="@+id/youtubeplaerarea"-->
+                <!--                    android:layout_height="250dp"/>-->
 
 
             </androidx.cardview.widget.CardView>
@@ -831,9 +935,7 @@
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_margin="3dp"
                         android:fontFamily="@font/robotomedium"
-                        android:padding="3dp"
                         android:text="NIT Raipur on Map"
                         android:textAlignment="center"
                         android:textColor="@color/GreenApp"
