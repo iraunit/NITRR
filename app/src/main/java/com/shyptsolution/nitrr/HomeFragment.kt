@@ -1,26 +1,19 @@
 package com.shyptsolution.nitrr
 
-import android.content.pm.PackageManager
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageView
-import android.widget.Toast
-import androidx.cardview.widget.CardView
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
+import android.widget.TextView
 import com.google.android.gms.maps.*
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.android.youtube.player.YouTubeBaseActivity
-import com.google.android.youtube.player.YouTubeInitializationResult
 import com.google.android.youtube.player.YouTubePlayer
 import com.google.android.youtube.player.YouTubePlayerView
-import com.shyptsolution.nitrr.admission.Admissionfragment
-import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_admissionfragment.*
 import kotlinx.android.synthetic.main.fragment_home.*
 
@@ -89,7 +82,14 @@ class HomeFragment : Fragment(), OnMapReadyCallback {
         mapView.onCreate(savedInstanceState)
         mapView.onResume()
         mapView.getMapAsync(this)
+        val url = "http://www.nitrr.ac.in/"
+        val i = Intent(Intent.ACTION_VIEW)
+        i.data = Uri.parse(url)
 
+        var nitrr=view.findViewById<TextView>(R.id.nitrr)
+        nitrr.setOnClickListener {
+            startActivity(i)
+        }
 //        youtubeplayer=view.findViewById<YouTubePlayerView>(R.id.youtubeplaerarea)
 //        ytplayerinit=object : YouTubePlayer.OnInitializedListener{
 //            override fun onInitializationSuccess(

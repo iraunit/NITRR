@@ -43,7 +43,7 @@
                         app:srcCompat="@drawable/maingate" />
 
                     <TextView
-                        android:id="@+id/textView2"
+                        android:id="@+id/nitrrrr"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="bottom"
@@ -85,6 +85,15 @@
                         android:text="#64 NIRF 2021"
                         android:textColor="@color/royalblue"
                         android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/nitrr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:fontFamily="@font/robotolight"
+                        android:text="Click to Visit Official Website "
+                        android:textColor="@color/purple_700" />
                 </LinearLayout>
 
 
@@ -122,7 +131,7 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/robotomedium"
+                            android:fontFamily="@font/robotoregular"
                             android:gravity="center"
                             android:text="Overall Grade"
 
@@ -151,11 +160,12 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/robotoregular"
+                            android:fontFamily="@font/robotolight"
                             android:gravity="center"
 
                             android:text="Academics"
                             android:textAlignment="textStart"
+                            android:textColor="@color/GreenApp"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -172,11 +182,12 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/robotoregular"
+                            android:fontFamily="@font/robotolight"
                             android:gravity="center"
 
                             android:text="Value"
                             android:textAlignment="textStart"
+                            android:textColor="@color/GreenApp"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -200,11 +211,12 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/robotoregular"
+                            android:fontFamily="@font/robotolight"
                             android:gravity="center"
 
                             android:text="Diversity"
                             android:textAlignment="textStart"
+                            android:textColor="@color/GreenApp"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -221,11 +233,12 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/robotoregular"
+                            android:fontFamily="@font/robotolight"
                             android:gravity="center"
 
                             android:text="Campus"
                             android:textAlignment="textStart"
+                            android:textColor="@color/GreenApp"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -249,11 +262,12 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/robotoregular"
+                            android:fontFamily="@font/robotolight"
                             android:gravity="center"
 
                             android:text="Athletics"
                             android:textAlignment="textStart"
+                            android:textColor="@color/GreenApp"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -270,11 +284,12 @@
                             android:layout_gravity="center_vertical"
                             android:layout_marginLeft="20dp"
                             android:layout_weight="1"
-                            android:fontFamily="@font/robotoregular"
+                            android:fontFamily="@font/robotolight"
                             android:gravity="center"
 
                             android:text="College Life"
                             android:textAlignment="textStart"
+                            android:textColor="@color/GreenApp"
                             android:textSize="14sp" />
                     </LinearLayout>
                 </LinearLayout>
@@ -324,7 +339,7 @@
                 android:paddingRight="2dp"
                 android:text="@string/highlight"
                 android:textAlignment="center"
-                android:textColor="@color/black"
+                android:textColor="@color/GreenApp"
                 android:textSize="20sp" />
 
             <TextView
@@ -335,7 +350,7 @@
                 android:fontFamily="@font/robotoregular"
                 android:padding="2dp"
                 android:text="@string/tabletitle"
-                android:textColor="@color/black"
+                android:textColor="@color/royalblue"
                 android:textSize="14sp" />
 
             <androidx.cardview.widget.CardView
@@ -404,15 +419,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Establishment year" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Establishment year"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="1956"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -426,15 +445,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Also known as" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Also known as"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="NIT Raipur, NITRR"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -448,15 +471,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Ownership" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Ownership"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="Government"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -470,15 +497,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Location" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Location"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="Raipur, Chhattisgarh"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -492,15 +523,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Campus size" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Campus size"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="100 acres"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -514,15 +549,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Status" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Status"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="Institute of National Importance"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -536,15 +575,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Rankings (2021)" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Rankings (2021)"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="	 Ranked 64 by NIRF under Engineering category"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -558,15 +601,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Entrance exams accepted" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Entrance exams accepted"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="	 JEE Main, GATE, NIMCET, UGC NET, CSIR-NET"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -580,15 +627,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="No. of departments" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="No. of departments"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="19"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -602,15 +653,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Number of courses" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Number of courses"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="23"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
 
@@ -625,15 +680,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Total faculty" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Total faculty"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/nofocoursers1ans"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="283"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -646,15 +705,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Student intake" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Student intake"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/textView16"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="1350+"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                         <LinearLayout
@@ -668,15 +731,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Types of scholarships offered" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Types of scholarships offered are"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/textView14"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="Tuition fee waiver, merit-based"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
 
                         </LinearLayout>
 
@@ -690,15 +757,19 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
-                                android:text="Average placement package (2020)" />
+                                android:fontFamily="@font/robotolight"
+                                android:text="Average placement package (2020)"
+                                android:textColor="@color/black" />
 
                             <TextView
                                 android:id="@+id/textView17"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:fontFamily="@font/robotolight"
                                 android:text="Rs 9.5 LPA"
-                                android:textAlignment="textEnd" />
+                                android:textAlignment="textEnd"
+                                android:textColor="@color/black" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -712,11 +783,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp" >
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"></LinearLayout>
+
                 <TextView
                     android:id="@+id/textView6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Youtube Player" />
+                    android:layout_margin="3dp"
+                    android:fontFamily="@font/robotomedium"
+                    android:padding="3dp"
+                    android:text="Reviews"
+                    android:textAlignment="center"
+                    android:textColor="@color/GreenApp"
+                    android:textSize="20sp" />
 
 <!--                <fragment-->
 <!--                    android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"-->
@@ -740,13 +822,32 @@
                 android:background="@drawable/gallerybackground"
                 android:padding="5dp">
 
-                <com.google.android.gms.maps.MapView
-                    android:id="@+id/mapView"
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:layout_margin="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:padding="5dp" />
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:fontFamily="@font/robotomedium"
+                        android:padding="3dp"
+                        android:text="NIT Raipur on Map"
+                        android:textAlignment="center"
+                        android:textColor="@color/GreenApp"
+                        android:textSize="20sp" />
+
+                    <com.google.android.gms.maps.MapView
+                        android:id="@+id/mapView"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_margin="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:padding="5dp" />
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
