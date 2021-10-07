@@ -53,7 +53,7 @@ class ArchiveFragment : Fragment() {
         Picasso.get().load("https://upload.wikimedia.org/wikipedia/commons/9/93/NIT%2C_Raipur_Campus_%2C_H_hostel.png").into(hostelimage)
         Picasso.get().load("https://lh3.googleusercontent.com/proxy/MCNK-_Z4nIRHFr1BYSSf3Az2XY0RSmUPQRKl38lSWge8HR_n5vN1tuVeTr07ImIxk7CMM0vWP1LEAeTAdu9pLffMgaXoFNPq-5Hq3TnY5ld6mFWcyQ").into(guestimage)
         Picasso.get().load("https://pbs.twimg.com/media/EiHYSmFXYAEEIXo.jpg").into(estate)
-        Picasso.get().load("https://lh3.googleusercontent.com/proxy/KJf9-_p3f90YR5YwdkQanYE_QUopxB9jAKcdXzDP7wnews16Yby9Hz44aOq5r9V_0E23_soaX_KHxYR7iq8Sy90J98QZ3fg").into(sportsimage)
+        Picasso.get().load("https://scontent.fpat2-1.fna.fbcdn.net/v/t1.6435-9/80092317_451454052199542_3655764875457593344_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=kSwmHnnwzVMAX8IxYvU&_nc_ht=scontent.fpat2-1.fna&oh=46d2fa2f561e9b0e968bd7ed4661b0af&oe=618402D6").into(sportsimage)
         Picasso.get().load("https://lh5.googleusercontent.com/p/AF1QipMbbFAYg4rSif0TkLzmVKC0X5OPMO4-pRbSaYxU=w1080-k-no").into(dispensary)
         Picasso.get().load("http://www.nitrr.ac.in/img/23.jpg").into(sportsimage1)
         Picasso.get().load("http://www.nitrr.ac.in/img/22.jpg").into(sportsimage2)
