@@ -15,7 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NITRR">
-        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCMdY2P0rE0c9-WIDw2a-GoybSOxI-RRpI"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value=""/>
         <activity
             android:name=".faculties.Wholeinfo"
             android:exported="true" />
